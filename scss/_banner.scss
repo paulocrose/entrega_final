@@ -1,0 +1,74 @@
+/* BANNER */
+
+.banner {
+  background: linear-gradient(to right, #0083B0, #00B4DB);
+  height: 500px;
+  margin-top: 1rem;
+  padding: 80px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.bannerReg {
+  background: linear-gradient(to right, #11998e, #38ef7d);
+}
+
+.bannerOl {
+  background: linear-gradient(to right, #b91d73, #f953c6);
+}
+
+.bannerTrad {
+  background: linear-gradient(to right, #F37335, #FDC830);
+}
+
+.bannerContac {
+  background: linear-gradient(to right, #4e54c8, #8f94fb);
+}
+
+.banner img {
+  width: 500px;
+  height: 500px;
+}
+
+.textoBanner {
+  width: 80%;
+
+  h1 {
+    font-size: 3.3rem;
+    font-weight: 1000;
+    margin-bottom: 12px;
+    color: $color-claro;
+  }
+
+  p {
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+    color: $color-claro;
+  }
+}
+
+button {
+  padding: 1em 2.1em 1.1em;
+  margin: 8px;
+  background-color: $color-claro;
+  color: $color-turquesa;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 900;
+  font-size: 1em;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid $color-claro;
+  transition: all 0.5s;
+
+  &:hover {
+    background-color: $color-turquesa;
+    color: $color-claro;
+    text-decoration: none;
+    border: 2px solid $color-claro;
+    cursor: pointer;
+  }
+}

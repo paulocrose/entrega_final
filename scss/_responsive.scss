@@ -1,0 +1,44 @@
+/* RESPONSIVE*/
+
+@media (max-width:884px) {
+    .banner {
+        margin-top: 10px;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .textoBanner {
+        width: 100%;
+        text-align: center;
+    }
+
+    .textoBanner h1 {
+        font-size: 3rem;
+    }
+
+    .banner img {
+        width: 70%;
+        height: 70%;
+    }
+}
+
+@media (max-width:678px) {
+    .textoBanner h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:884px) {
+    form {
+        width: auto;
+    }
+
+    .contacto {
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .textoContacto {
+        width: auto;
+    }
+}

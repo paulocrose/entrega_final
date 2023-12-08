@@ -1,0 +1,101 @@
+/* FORMULARIO DE CONTACTO*/
+
+.contacto {
+    margin-top: 3rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: start;
+
+    h2 {
+        color: $color-oscuro;
+        margin: 0 0 20px 0;
+    }
+}
+
+.textoContacto {
+    width: 500px;
+}
+
+form {
+    margin-right: 20px;
+    width: 600px;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-bottom: 80px;
+    color: $color-oscuro;
+    justify-content: space-around;
+}
+
+input {
+
+    &[type="text"],
+    &[type="email"] {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        border: 2px solid $color-turquesa;
+        border-radius: 5px;
+        font-size: 16px;
+        margin-bottom: 10px;
+        background-color: $color-claro;
+    }
+}
+
+select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid $color-turquesa;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    background-color: $color-claro;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid $color-turquesa;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    background-color: $color-claro;
+}
+
+.btn-primary {
+    background-color: $color-turquesa;
+    color: $color-fondo;
+    padding: 10px 20px;
+    border: 2px solid $color-turquesa;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-secondary {
+    background-color: $color-oscuro;
+    color: $color-claro;
+    padding: 10px 20px;
+    border: 2px solid $color-oscuro;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.modal-dialog {
+    text-align: center;
+
+    p {
+        font-size: 23px;
+    }
+}

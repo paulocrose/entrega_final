@@ -1,0 +1,364 @@
+/* ESTILO */
+/* VARIABLES */
+/* MIXIN */
+/* RESET */
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Comfortaa", sans-serif;
+}
+
+h2 {
+  color: #333;
+  font-weight: 700;
+  text-align: left;
+  margin: 60px 0px 40px 20px;
+}
+
+/* FUENTES */
+/* HEADER */
+.logo {
+  width: 150px;
+}
+
+.encabezado {
+  background-color: rgb(42, 123, 129);
+  padding: 0;
+}
+
+.menuNav a {
+  color: aliceblue;
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: 1.3px;
+  padding: 10px;
+  margin: 10px;
+  transition: all 0.3s;
+}
+.menuNav a:hover {
+  background: radial-gradient(circle, aliceblue, rgb(61, 194, 194));
+  border-radius: 5px;
+}
+
+.active {
+  background-color: rgb(61, 194, 194);
+  border-radius: 5px;
+}
+
+.navbar-toggler {
+  background-color: aliceblue;
+}
+
+/* BANNER */
+.banner {
+  background: linear-gradient(to right, #0083B0, #00B4DB);
+  height: 500px;
+  margin-top: 1rem;
+  padding: 80px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.bannerReg {
+  background: linear-gradient(to right, #11998e, #38ef7d);
+}
+
+.bannerOl {
+  background: linear-gradient(to right, #b91d73, #f953c6);
+}
+
+.bannerTrad {
+  background: linear-gradient(to right, #F37335, #FDC830);
+}
+
+.bannerContac {
+  background: linear-gradient(to right, #4e54c8, #8f94fb);
+}
+
+.banner img {
+  width: 500px;
+  height: 500px;
+}
+
+.textoBanner {
+  width: 80%;
+}
+.textoBanner h1 {
+  font-size: 3.3rem;
+  font-weight: 1000;
+  margin-bottom: 12px;
+  color: aliceblue;
+}
+.textoBanner p {
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+  color: aliceblue;
+}
+
+button {
+  padding: 1em 2.1em 1.1em;
+  margin: 8px;
+  background-color: aliceblue;
+  color: rgb(42, 123, 129);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 900;
+  font-size: 1em;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid aliceblue;
+  transition: all 0.5s;
+}
+button:hover {
+  background-color: rgb(42, 123, 129);
+  color: aliceblue;
+  text-decoration: none;
+  border: 2px solid aliceblue;
+  cursor: pointer;
+}
+
+/* FEATURES*/
+.feature-icon {
+  background-color: rgb(42, 123, 129);
+  width: 45px;
+  border-radius: 5px;
+}
+
+.bi {
+  color: aliceblue;
+}
+
+/* CARDS */
+.card {
+  padding: 10px;
+  border: none;
+  transition: all 0.5s;
+}
+.card h3 {
+  font-weight: 700;
+  font-size: 23px;
+}
+.card p {
+  font-size: 14px;
+}
+.card:hover {
+  transform: scale(1.04);
+}
+
+.inicial {
+  margin-bottom: 100px;
+}
+
+.btn-primary {
+  background-color: rgb(42, 123, 129);
+  border: 2px solid rgb(42, 123, 129);
+  transition: all 0.5s;
+}
+.btn-primary:hover {
+  background-color: aliceblue;
+  border: 2px solid rgb(42, 123, 129);
+  color: rgb(42, 123, 129);
+}
+
+.cuerpo {
+  background-color: aliceblue;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 2px 2px 6px rgb(206, 199, 199);
+}
+
+.foto {
+  box-shadow: 2px 2px 6px rgb(206, 199, 199);
+}
+
+/* CAROUSEL */
+.testimonios {
+  margin: 20px 10px;
+}
+.testimonios h3 {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 23px;
+  font-weight: 400;
+  background-color: aliceblue;
+  color: rgb(42, 123, 129);
+}
+
+/* FORMULARIO DE CONTACTO*/
+.contacto {
+  margin-top: 3rem;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: start;
+}
+.contacto h2 {
+  color: #333;
+  margin: 0 0 20px 0;
+}
+
+.textoContacto {
+  width: 500px;
+}
+
+form {
+  margin-right: 20px;
+  width: 600px;
+  margin-top: 20px;
+  font-weight: bold;
+  margin-bottom: 80px;
+  color: #333;
+  justify-content: space-around;
+}
+
+input[type=text], input[type=email] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid rgb(42, 123, 129);
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  background-color: aliceblue;
+}
+
+select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid rgb(42, 123, 129);
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  background-color: aliceblue;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid rgb(42, 123, 129);
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  background-color: aliceblue;
+}
+
+.btn-primary {
+  background-color: rgb(42, 123, 129);
+  color: #fff;
+  padding: 10px 20px;
+  border: 2px solid rgb(42, 123, 129);
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn-secondary {
+  background-color: #333;
+  color: aliceblue;
+  padding: 10px 20px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.modal-dialog {
+  text-align: center;
+}
+.modal-dialog p {
+  font-size: 23px;
+}
+
+/* MAPS */
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 350px;
+  position: relative;
+  height: 0;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/* FOOTER */
+footer {
+  background-color: rgb(42, 123, 129);
+  padding: 40px;
+  text-align: auto;
+  margin-top: 1rem;
+}
+
+.textoFooter {
+  color: aliceblue;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.bi-instagram {
+  color: aliceblue;
+  font-weight: 400;
+  font-size: 15px;
+  font-style: normal;
+  text-decoration: none;
+}
+
+/* RESPONSIVE*/
+@media (max-width: 884px) {
+  .banner {
+    margin-top: 10px;
+    flex-direction: column;
+    height: 100%;
+  }
+  .textoBanner {
+    width: 100%;
+    text-align: center;
+  }
+  .textoBanner h1 {
+    font-size: 3rem;
+  }
+  .banner img {
+    width: 70%;
+    height: 70%;
+  }
+}
+@media (max-width: 678px) {
+  .textoBanner h1 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 884px) {
+  form {
+    width: auto;
+  }
+  .contacto {
+    flex-flow: column;
+    align-items: center;
+  }
+  .textoContacto {
+    width: auto;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */

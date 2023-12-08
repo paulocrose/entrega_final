@@ -1,0 +1,34 @@
+/* HEADER */
+
+.logo {
+    width: 150px;
+}
+
+.encabezado {
+    background-color: $color-turquesa;
+    padding: 0;
+}
+
+.menuNav a {
+    @include anclas;
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: 1.3px;
+    padding: 10px;
+    margin: 10px;
+    transition: all 0.3s;
+
+    &:hover {
+        background: radial-gradient(circle, $color-claro, $color-seleccionado);
+        border-radius: 5px;
+    }
+}
+
+.active {
+    background-color: $color-seleccionado;
+    border-radius: 5px;
+}
+
+.navbar-toggler {
+    background-color: $color-claro;
+}
